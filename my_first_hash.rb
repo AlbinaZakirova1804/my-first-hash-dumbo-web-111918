@@ -12,31 +12,23 @@ def shipping_manifest
  end
 
 def retrieval
-  shipping_manifest =
+  shipping_manifest = {
                   "whale bone corsets" => 5, 
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-  the_manifest['oil paintings']
-
-  # Look up the value of the "oil paintings" key in the shipping_manifest hash below
-
+  shipping_manifest['oil paintings']
 end
 
 def adding
   shipping_manifest = {
                   "whale bone corsets" => 5, 
                   "porcelain vases" => 2, 
-                  "oil paintings" => 3
+                  "oil paintings" => 
+    
                  }
-  # add 2 muskets to the shipping_manifest hash below
-
-
-
-  # add 4 gun powder to the shipping_manifest hash below
-
-
-
-  # return the shipping_manifest hash below
-
+  shipping_manifest['muskets'] = 2
+  shipping_manifest['gun power'] = 4
+  shipping_manifest
+  
 end
